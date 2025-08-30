@@ -1,5 +1,5 @@
 from mcp.tools.base import BaseTool
-from mcp.tools.ping import ping
+
 class PingTool(BaseTool):
     @staticmethod
     def tool_info():
