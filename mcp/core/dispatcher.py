@@ -9,7 +9,7 @@ class Dispatcher:
         method = req.get("method")
         req_id = req.get("id")
 
-        print(f"Handling request: {req}")
+        # print(f"Handling request: {req}")
 
         if method == "initialize":
             return make_response(req_id, {

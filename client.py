@@ -8,6 +8,7 @@ def read_msg(proc):
     line = proc.stdout.readline()
     if not line:
         return None
+    print("RESPONSE:", line.strip())
     return json.loads(line.strip())
 
 def main():
